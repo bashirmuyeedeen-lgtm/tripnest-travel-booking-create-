@@ -1,0 +1,11 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+nav{display:flex;justify-content:space-between;padding:1rem 5%;background:#fff;box-shadow:0 2px 5px #ddd}
+nav ul{display:flex;list-style:none;gap:1.5rem}
+.hero{text-align:center;padding:4rem 5%;background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');background-size:cover;color:white}
+.search-box{background:white;padding:1rem;border-radius:10px;display:flex;gap:10px;justify-content:center;margin:2rem auto;max-width:600px}
+.search-box input, .search-box button{padding:0.7rem;border-radius:6px;border:1px solid #ccc}
+.search-box button{background:#6c5ce7;color:white;border:none;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;padding:2% 5%}
+.card{background:#f9f9f9;padding:1rem;border-radius:10px;box-shadow:0 4px 8px rgba(0,0,0,0.05)}
+.card h3{color:#6c5ce7}
+footer{text-align:center;padding:2rem;background:#f1f1f1;margin-top:2rem}
