@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripNest - Travel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>TripNest ✈️</h2>
+        <ul><li>Home</li><li>Destinations</li><li>Deals</li></ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Explore The World With Us</h1>
+        <p>Find your perfect getaway from over 500 destinations</p>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Where to? e.g. Bali">
+            <input type="date">
+            <button onclick="searchTrip()">Search</button>
+        </div>
+        <p id="searchResult"></p>
+    </section>
+
+    <section class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="grid" id="destGrid"></div>
+    </section>
+
+    <footer><p>&copy; 2026 TripNest | Built by Bashir muyeedeen</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
